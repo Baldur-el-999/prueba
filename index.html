@@ -24,16 +24,19 @@
         </ul>
     </nav>
     <main>
-        <form>
-            <label>Nombre</label>
-            <input type="text">
-            <label>Correo electronico</label>
-            <input type="text">
-            <label>Mensaje</label>
-            <textarea>
-
-            </textarea>
-            <input type="button" value="Boton de enviar">
+        <form action="https://formspree.io/f/mzzgkbyn" method="post">
+            <label>Nombre
+                <input type="text">
+            </label>
+            <label>Correo electronico
+                <input type="email" name="email">
+            </label>
+            <label>Mensaje
+                <textarea name="Mensaje">
+                    
+                </textarea>
+            </label>
+            <input type="submit" value="Boton de enviar">
         </form>
         <section>
             <img src="logo.png" alt="">
